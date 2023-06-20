@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+#image {
+  margin: auto;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+#img-div {
+  padding: 7px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#tribute-info {
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+}
+
+#tribute-info h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+li {
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  #tribute-info {
+    width: 80%;
+    padding: 10px;
+  }
+}
